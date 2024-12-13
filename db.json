@@ -1,0 +1,273 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "name": "Acme Fresh Start Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://angular.dev/assets/images/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+      "availableUnits": 4,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 1,
+      "name": "A113 Transitional Housing",
+      "city": "Santa Monica",
+      "state": "CA",
+      "photo": "https://angular.dev/assets/images/tutorials/common/brandon-griggs-wR11KBaB86U-unsplash.jpg",
+      "availableUnits": 0,
+      "wifi": false,
+      "laundry": true
+    },
+    {
+      "id": 2,
+      "name": "Warm Beds Housing Support",
+      "city": "Juneau",
+      "state": "AK",
+      "photo": "https://angular.dev/assets/images/tutorials/common/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 3,
+      "name": "Homesteady Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://angular.dev/assets/images/tutorials/common/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 4,
+      "name": "Happy Homes Group",
+      "city": "Gary",
+      "state": "IN",
+      "photo": "https://angular.dev/assets/images/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 5,
+      "name": "Hopeful Apartment Group",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 6,
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://angular.dev/assets/images/tutorials/common/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
+      "availableUnits": 5,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 7,
+      "name": "Hopeful Housing Solutions",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-GGupkreKwxA-unsplash.jpg",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 8,
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://angular.dev/assets/images/tutorials/common/saru-robert-9rP3mxf8qWI-unsplash.jpg",
+      "availableUnits": 10,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 9,
+      "name": "Capital Safe Towns",
+      "city": "Portland",
+      "state": "OR",
+      "photo": "https://angular.dev/assets/images/tutorials/common/webaliser-_TPTXZd9mOo-unsplash.jpg",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true
+    }
+  ],
+
+  "cars" : [
+    {
+      "id": 0,
+      "marque": "Toyota",
+      "modele": "Corolla",
+      "annee": 2020,
+      "prix_journalier": 45,
+      "disponible": true,
+      "image_url": "https://media.istockphoto.com/id/1490889104/fr/photo/toyota-corolla-hybride.jpg?s=612x612&w=0&k=20&c=fZq5nYiaVhX9b684YCD_20ec-qywu_737X5xTsed4Xg=",
+      "caracteristiques": {
+        "type": "Berline",
+        "transmission": "Automatique",
+        "carburant": "Essence",
+        "couleur": "Gris"
+      }
+    },
+    {
+      "id": 1,
+      "marque": "Ford",
+      "modele": "Focus",
+      "annee": 2019,
+      "prix_journalier": 50,
+      "disponible": false,
+      "image_url": "https://media.gettyimages.com/id/471776366/fr/photo/ford-focus-sur-la-rue.jpg?s=612x612&w=gi&k=20&c=tfz5oO0QdsQZ5QdGg_u3N3dR7nOvhUzuAgIXU9_giUc=",
+      "caracteristiques": {
+        "type": "Berline",
+        "transmission": "Manuelle",
+        "carburant": "Diesel",
+        "couleur": "Bleu"
+      }
+    },
+    {
+      "id": 2,
+      "marque": "BMW",
+      "modele": "X5",
+      "annee": 2021,
+      "prix_journalier": 120,
+      "disponible": true,
+      "image_url": "https://www.shutterstock.com/image-photo/novosibirsk-russia-july-10-2024-600nw-2489094169.jpg",
+      "caracteristiques": {
+        "type": "SUV",
+        "transmission": "Automatique",
+        "carburant": "Hybride",
+        "couleur": "Noir"
+      }
+    },
+    {
+      "id": 3,
+      "marque": "Peugeot",
+      "modele": "208",
+      "annee": 2018,
+      "prix_journalier": 35,
+      "disponible": true,
+      "image_url": "https://t3.ftcdn.net/jpg/04/40/38/92/360_F_440389241_lB1PbMbt2pGThvjDWSJnMBxoNU7hFT6r.jpg",
+      "caracteristiques": {
+        "type": "Citadine",
+        "transmission": "Manuelle",
+        "carburant": "Essence",
+        "couleur": "Rouge"
+      }
+    },
+    {
+      "id": 4,
+      "marque": "Tesla",
+      "modele": "Model 3",
+      "annee": 2022,
+      "prix_journalier": 150,
+      "disponible": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg",
+      "caracteristiques": {
+        "type": "Berline",
+        "transmission": "Automatique",
+        "carburant": "Électrique",
+        "couleur": "Blanc"
+      }
+    },
+    {
+      "id": 5,
+      "marque": "Renault",
+      "modele": "Clio",
+      "annee": 2020,
+      "prix_journalier": 40,
+      "disponible": true,
+      "image_url": "https://media.gettyimages.com/id/502177910/fr/photo/renault-clio-arr%C3%AAter-sur-la-route.jpg?s=612x612&w=gi&k=20&c=uIcdoD-NaQ8oWVpjxTRC3DTRtMUwjfp2OrN0tFHuHs0=",
+      "caracteristiques": {
+        "type": "Citadine",
+        "transmission": "Manuelle",
+        "carburant": "Diesel",
+        "couleur": "Jaune"
+      }
+    },
+    {
+      "id": 6,
+      "marque": "Audi",
+      "modele": "A4",
+      "annee": 2021,
+      "prix_journalier": 95,
+      "disponible": true,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Audi_A4_2.0_TFSI_quattro.jpg/1200px-Audi_A4_2.0_TFSI_quattro.jpg",
+      "caracteristiques": {
+        "type": "Berline",
+        "transmission": "Automatique",
+        "carburant": "Essence",
+        "couleur": "Argent"
+      }
+    },
+    {
+      "id": 7,
+      "marque": "Volkswagen",
+      "modele": "Golf",
+      "annee": 2019,
+      "prix_journalier": 55,
+      "disponible": false,
+      "image_url": "https://www.bluechipclassics.co.uk/bc/resources/Stock/img0548-w1600h1200.jpg",
+      "caracteristiques": {
+        "type": "Compacte",
+        "transmission": "Manuelle",
+        "carburant": "Diesel",
+        "couleur": "Vert"
+      }
+    },
+    {
+      "id": 8,
+      "marque": "Mercedes",
+      "modele": "C-Class",
+      "annee": 2020,
+      "prix_journalier": 110,
+      "disponible": true,
+      "image_url": "https://images.caradisiac.com/logos-ref/modele/modele--mercedes-classe-c-4/S0-modele--mercedes-classe-c-4.jpg",
+      "caracteristiques": {
+        "type": "Berline",
+        "transmission": "Automatique",
+        "carburant": "Hybride",
+        "couleur": "Noir"
+      }
+    },
+    {
+      "id": 9,
+      "marque": "Hyundai",
+      "modele": "Tucson",
+      "annee": 2021,
+      "prix_journalier": 70,
+      "disponible": true,
+      "image_url": "https://media.istockphoto.com/id/1553889904/fr/photo/hyundai-tucson.jpg?s=612x612&w=0&k=20&c=qnS2HqBbEkT-ZGx483iQWJVQaPO_KM7BQsa-w1ll5dI=",
+      "caracteristiques": {
+        "type": "SUV",
+        "transmission": "Manuelle",
+        "carburant": "Essence",
+        "couleur": "Gris"
+      }
+    },
+    {
+      "id": 10,
+      "marque": "Nissan",
+      "modele": "Micra",
+      "annee": 2018,
+      "prix_journalier": 30,
+      "disponible": true,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Nissan_Micra.jpg/640px-Nissan_Micra.jpg",
+      "caracteristiques": {
+        "type": "Citadine",
+        "transmission": "Manuelle",
+        "carburant": "Essence",
+        "couleur": "Blanc"
+      }
+    }
+  ]
+
+}
