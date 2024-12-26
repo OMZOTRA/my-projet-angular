@@ -1,0 +1,15 @@
+<div class="content">
+  <div class="card"  *ngIf="houseLocation">
+    <img [routerLink]="['/rent-house']" class="icon-gob-ack" src="./assets/images/arrière.png" alt="go back">
+    <img class="housePhoto" [src]="houseLocation.photo" [alt]="houseLocation.name">
+    <div>
+      <h3>Information utils sur la maison</h3>
+      <p>Name : {{houseLocation.name}}</p>
+      <p>City : {{houseLocation.city}}</p>
+      <p>State : {{houseLocation.state}}</p>
+      <p>AvailableUnits : {{houseLocation.availableUnits}}</p>
+      <p>Laundry : {{houseLocation.laundry}}</p>
+      <p>WIFI : ss{{houseLocation.wifi}}</p>
+    </div>
+  </div>
+</div>

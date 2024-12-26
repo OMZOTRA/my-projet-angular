@@ -1,0 +1,29 @@
+.content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 40px;
+  .housePhoto{
+    width: 400px;
+    height:400px;
+  }
+  .icon-gob-ack{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #6f6b6b;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+}

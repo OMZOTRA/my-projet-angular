@@ -1,0 +1,18 @@
+<div class="connexion">
+  <div class="content-form" [formGroup]="form_connexion">
+    <h2>Connexion</h2>
+    <form>
+      <div class="form-control">
+        <label>Email</label>
+        <input type="email" formControlName="email">
+      </div>
+      <div class="form-control">
+        <label>Password</label>
+        <input type="password" formControlName="password">
+      </div>
+      <div class="action">
+        <button type="button" (click)="getUser()">connexion</button>
+      </div>
+    </form>
+  </div>
+</div>

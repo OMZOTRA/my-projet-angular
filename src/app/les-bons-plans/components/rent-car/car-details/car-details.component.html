@@ -1,0 +1,15 @@
+<div class="content">
+  <div class="card"  *ngIf="carLocation">
+    <img [routerLink]="['/rent-car']" class="icon-gob-ack" src="./assets/images/arrière.png" alt="go back">
+    <img class="housePhoto" [src]="carLocation.image_url" [alt]="carLocation.marque">
+    <div>
+      <h3>Information sur la voiture</h3>
+      <p>Marque : {{carLocation.marque}}</p>
+      <p>Model : {{carLocation.modele}}</p>
+      <p>Year : {{carLocation.annee}}</p>
+      <p>caracteristiques: {{carLocation.caracteristiques}}</p>
+      <p>Price for day: {{carLocation.prix_journalier}}</p>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,32 @@
+.inputSearch-containe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 10px;
+  input{
+    width: 80%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+  }
+}
+
+.filter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.button-search {
+  width: 15%;
+  padding: 10px;
+  border: 0;
+  border-radius: 0px 5px 5px 0px;
+  font-weight: bold;
+  color: #57606f;
+  cursor: pointer;
+}
+input:focus{
+  outline: 0;
+}

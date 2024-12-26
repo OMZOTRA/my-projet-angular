@@ -1,0 +1,21 @@
+<div class="content-house">
+  <div class="submenu">
+    <div class="inputSearch-containe">
+      <form class="filter-form">
+        <input class="input-filter" [formControl]="searchFilter"  type="text" #inputSearch>
+        <button class="button-search" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+  <a class="go-back" routerLink="">home</a>
+  <div class="container">
+    <div class="card" *ngFor="let houseLocation of houseLocations; let id=index">
+    <img class="house-image" [src]="houseLocation.photo" [alt]="houseLocation.name">
+     <div class="house-detail name-location">
+       <span>{{houseLocation.name}}</span>
+       <span>Ville : {{houseLocation.city}}</span>
+     </div>
+        <a class="learn-more" [routerLink]="['/rent-house/', id]">learn more</a>
+    </div>
+  </div>
+</div>

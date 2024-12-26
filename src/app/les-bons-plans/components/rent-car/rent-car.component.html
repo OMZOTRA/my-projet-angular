@@ -1,0 +1,22 @@
+<div class="content-car">
+  <div class="submenu">
+    <div class="inputSearch-containe">
+      <form class="filter-form">
+        <input class="input-filter" [formControl]="searchFilter" type="text" #inputSearch>
+        <button class="button-search" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+  <a class="go-back" routerLink="">home</a>
+  <div class="container">
+    <div class="card" *ngFor="let carLocation of carLocations; let id=index">
+      <img class="car-image" [src]="carLocation.image_url" [alt]="carLocation.marque">
+      <div class="car-detail name-location">
+        <span>{{carLocation.modele}}</span>
+        <span>{{carLocation.marque}}</span>
+      </div>
+      <a class="learn-more" [routerLink]="['/rent-car/', id]">learn more</a>
+    </div>
+  </div>
+</div>
+
